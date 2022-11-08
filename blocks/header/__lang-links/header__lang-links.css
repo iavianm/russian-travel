@@ -1,16 +1,9 @@
 .header__lang-links {
-  display: grid;
-  grid-template-columns: repeat(2, 30px);
-  gap: 18px;
-  text-decoration: none;
-  font-size: 24px;
-  line-height: 28px;
-  text-align: right;
+  display: flex;
 }
 
 @media screen and (max-width: 568px) {
   .header__lang-links {
-    font-size: 18px;
-    line-height: 20px;
+    max-height: 42px;
   }
 }

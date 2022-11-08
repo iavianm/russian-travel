@@ -1,9 +1,11 @@
 .header__lang-links {
   display: flex;
+  gap: 18px;
+  margin-top: 10px;
 }
 
 @media screen and (max-width: 568px) {
   .header__lang-links {
-    max-height: 42px;
+    margin-top: 6px;
   }
 }

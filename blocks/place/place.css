@@ -23,15 +23,11 @@
   .place {
     grid-template-columns: auto;
     margin: 0;
-    box-sizing: border-box;
   }
 }
 
 @media screen and (max-width: 568px) {
   .place {
-    grid-template-columns: auto;
-    margin: 0;
-    box-sizing: border-box;
     gap: 32px;
   }
 }

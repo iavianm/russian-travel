@@ -42,6 +42,13 @@ h1 {
   margin: 0.67em 0;
 }
 
+figure {
+  margin: 0;
+}
+
+figcaption {
+  margin: 0;
+}
 /* Grouping content
    ========================================================================== */
 
